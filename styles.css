@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair","Inconsolata", monospace;
+}
+
+body{
+    background: #D0B8AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+.container{
+    background: #FBFEFB;
+    position: relative;
+    padding: 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0,0,0.15);
+    width: 70vw;
+    max-width: 600px;
+    /* height: 15vh; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.container h1{
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+}
+
+.container h1::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    background: rgb(23, 124, 229);
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    padding: 10px;
+    background:rgb(23, 124, 229);
+    border: 0;
+    color:#FBFEFB;
+    border-radius:10px;
+    font-size: 18px;
+}
+.twitter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
